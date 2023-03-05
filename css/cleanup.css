@@ -1,1 +1,28 @@
-/* write your override styles here */
+#wall .tag-1 {
+    z-index: 1;
+    display: none;
+}
+
+#wall .tag-2 {
+    z-index: 6;
+    display: none;
+}
+
+div#wall #tag-3.slick {
+    z-index: 1;
+    display: block;
+}
+
+#wall .tag-4 {
+    z-index: 2;
+    display: block;
+}
+
+div#wall .parent #tag-5.slick {
+    z-index: 4;
+    display: block;
+}
+
+div#wall div.parent div:last-child div#tag-6 {
+    display: block;
+}
